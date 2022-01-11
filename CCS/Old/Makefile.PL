@@ -2,7 +2,7 @@ use PDL::Core::Dev;
 use ExtUtils::MakeMaker;
 PDL::Core::Dev->import();
 
-$package = ["Old.pd", 'Old', 'PDL::CCS::Old'];
+$package = ["Old.pd", 'Old', 'PDL::CCS::Old', undef, 1];
 %hash = pdlpp_stdargs($package);
 
 $hash{AUTHOR} = 'Bryan Jurish';
