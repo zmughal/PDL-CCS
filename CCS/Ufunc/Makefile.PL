@@ -3,7 +3,7 @@ use ExtUtils::MakeMaker;
 PDL::Core::Dev->import();
 require "../../pdlmaker.plm";
 
-$package = ["ccsufunc.pd", 'Ufunc', 'PDL::CCS::Ufunc', undef, 1];
+$package = ["ccsufunc.pd", 'Ufunc', 'PDL::CCS::Ufunc'];
 %hash = pdlmaker_init($package);
 
 $hash{AUTHOR} = 'Bryan Jurish';
